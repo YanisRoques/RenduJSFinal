@@ -31,10 +31,11 @@ function afficher() {
             const s1div1 = document.createElement(`div`);
             s1div1.id = `entete`;
             const s1div2 = document.createElement(`div`);
-            s1div1.className = `accroche`;
+            s1div2.id = `accroche`;
 
             const section2 = document.getElementById("section2");
             const s2div1 = document.createElement(`div`);
+            s2div1.id = `divplat`;
             const s2div2 = document.createElement(`div`);
             const s2div3 = document.createElement(`div`);
 
@@ -58,6 +59,7 @@ function afficher() {
             let plats = data.plats;
             plats.forEach(plat => {
                 let divplat = document.createElement(`div`);
+                divplat.className = `cardplat`
                 s2div1.appendChild(divplat);
 
                 let nomPlat = document.createElement(`h2`);
