@@ -35,7 +35,7 @@ p {
     font-style: normal;
 }
 button{
-    background-color: #2C4001;
+    background-color: #F2F1E9;
     border: none;
     border-radius: 5px;
     box-shadow: 1px 1px 5px black;
@@ -43,6 +43,13 @@ button{
     width: 17%;
     height: 50px;
     font-size: 14px;
+    color: #403A2F;
+    transition: 0.5s ease;
+}
+button:hover{
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #2C4001;
     color: #F2F1E9;
 }
 #section1{
@@ -135,7 +142,7 @@ button{
 }
 
 .cardplat:hover{
-    scale: 1.2;
+    scale: 1.1;
     border-radius: 10px;
 }
 

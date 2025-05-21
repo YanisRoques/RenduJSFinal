@@ -37,6 +37,7 @@ function afficher() {
             const s2div1 = document.createElement(`div`);
             s2div1.id = `divplat`;
             const s2div2 = document.createElement(`div`);
+            s2div2.id = `divservice`;
             const s2div3 = document.createElement(`div`);
 
 
@@ -79,6 +80,7 @@ function afficher() {
             let services = data.services;
             services.forEach(service => {
                 let divservice = document.createElement(`div`);
+                divservice.className = `cardservice`;
                 s2div2.appendChild(divservice);
 
                 let nomService = document.createElement(`h2`);
