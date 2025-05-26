@@ -185,7 +185,7 @@ button:hover {
 }
 
 .cardplat:hover {
-    scale: 1.1;
+    scale: 1.07;
 }
 
 .cardplat:hover h2 {
@@ -236,7 +236,7 @@ button:hover {
     text-shadow: 2px 2px 1px rgb(19, 18, 18);
 }
 .cardservice:hover {
-    scale: 1.1;
+    scale: 1.07;
 }
 
 .cardservice:hover h2 {
