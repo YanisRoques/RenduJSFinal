@@ -5,7 +5,8 @@
     --brun: #4E4B42;
     --accent: #DCC48E;
 }
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -53,8 +54,6 @@ button:hover {
     cursor: pointer;
     scale: 1.2;
     box-shadow: 1px 1px 10px rgb(19, 18, 18);
-    background-color: #e1bf6f;
-    color: rgb(18, 18, 18);
 }
 
 #section1 {
@@ -106,7 +105,7 @@ button:hover {
     padding-bottom: 4%;
     padding-top: 4%;
     text-align: left;
-    margin-bottom:6%;
+    margin-bottom: 6%;
     width: 100%;
     height: 60%;
     display: flex;
@@ -203,10 +202,13 @@ button:hover {
     flex-direction: column;
     align-items: center;
 }
-#divservice p, h2{
+
+#divservice p,
+h2 {
     color: var(--beige);
     text-shadow: 2px 2px 5px black;
 }
+
 .cardservice {
     display: flex;
     flex-direction: column;
@@ -226,15 +228,18 @@ button:hover {
     padding-top: 2%;
     padding-bottom: 2%;
 }
+
 .cardservice h2 {
     text-align: left;
     transition: 0.5s ease;
     color: var(--accent);
 }
+
 .cardservice p {
     text-align: left;
     text-shadow: 2px 2px 1px rgb(19, 18, 18);
 }
+
 .cardservice:hover {
     scale: 1.07;
 }
@@ -243,6 +248,7 @@ button:hover {
     scale: 1.05;
     border-radius: 5px;
 }
+
 #divavis {
     margin-top: 3%;
     color: var(--vert-clair);
@@ -259,24 +265,28 @@ button:hover {
     padding-top: 1.5%;
     padding-bottom: 3%;
 }
-#divavistitre{
+
+#divavistitre {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 20%;
 }
-#divavistitre h2{
+
+#divavistitre h2 {
     font-size: 35px;
     color: var(--accent);
 }
-#divaviscard{
+
+#divaviscard {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     height: 80%;
 }
+
 .cardavis {
     background-color: var(--vert-fond);
     box-shadow: 1px 1px 10px #000000;
@@ -310,6 +320,7 @@ button:hover {
     transition: 0.5s ease;
     color: var(--accent);
 }
+
 .cardavis:hover {
     scale: 1.1;
     border-radius: 10px;
