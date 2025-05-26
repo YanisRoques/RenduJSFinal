@@ -40,6 +40,11 @@ function afficher() {
             s2div2.id = `divservice`;
             const s2div3 = document.createElement(`div`);
             s2div3.id = `divavis`;
+            const s2div3_1 = document.createElement(`div`);
+            s2div3_1.id = `divavistitre`;
+            const s2div3_2 = document.createElement(`div`);
+            s2div3_2.id = `divaviscard`;
+            
 
 
             let titre = document.createElement(`h1`);
@@ -97,12 +102,14 @@ function afficher() {
                 divservice.appendChild(nomService);
                 divservice.appendChild(descService);
             })
-
+            let h2avis = document.createElement(`h2`);
+            h2avis.textContent = (`Ils on testé Tudo de Bom`)
+            s2div3_1.appendChild(h2avis);
             let avis = data.temoignages;
             avis.forEach(avi => {
                 let divavis = document.createElement(`div`);
                 divavis.className = `cardavis`;
-                s2div3.appendChild(divavis);
+                s2div3_2.appendChild(divavis);
 
                 let prenomAvi = document.createElement(`h2`);
                 prenomAvi.textContent = avi.prenom;
@@ -122,6 +129,8 @@ function afficher() {
             section2.appendChild(s2div1);
             section2.appendChild(s2div2);
             section2.appendChild(s2div3);
+            s2div3.appendChild(s2div3_1);
+            s2div3.appendChild(s2div3_2);
         });
 }
 
