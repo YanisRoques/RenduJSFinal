@@ -303,6 +303,7 @@ button:hover {
     width: 90%;
     height: 30%;
     color: var(--beige);
+    text-shadow: 2px 2px 1px rgb(19, 18, 18);
 }
 
 .cardavis h2 {
