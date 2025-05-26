@@ -39,6 +39,7 @@ function afficher() {
             const s2div2 = document.createElement(`div`);
             s2div2.id = `divservice`;
             const s2div3 = document.createElement(`div`);
+            s2div3.id = `divavis`;
 
 
             let titre = document.createElement(`h1`);
@@ -49,6 +50,9 @@ function afficher() {
 
             let appelAction = document.createElement(`button`);
             appelAction.textContent = data.texteBouton;
+            appelAction.addEventListener('click', () => {
+                    document.getElementById('divplat').scrollIntoView();
+                });
 
             let promesses = data.promessesClient;
             promesses.forEach(promesse => {
@@ -81,11 +85,12 @@ function afficher() {
             services.forEach(service => {
                 let divservice = document.createElement(`div`);
                 divservice.className = `cardservice`;
+                divservice.id = service.id;
                 s2div2.appendChild(divservice);
 
                 let nomService = document.createElement(`h2`);
-                    nomService.textContent = service.nom;
-                
+                nomService.textContent = service.nom;
+
                 let descService = document.createElement(`p`);
                 descService.textContent = service.desc;
 
@@ -96,6 +101,7 @@ function afficher() {
             let avis = data.temoignages;
             avis.forEach(avi => {
                 let divavis = document.createElement(`div`);
+                divavis.className = `cardavis`;
                 s2div3.appendChild(divavis);
 
                 let prenomAvi = document.createElement(`h2`);
