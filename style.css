@@ -55,7 +55,6 @@ button:hover {
     box-shadow: 1px 1px 10px rgb(19, 18, 18);
     background-color: #e1bf6f;
     color: rgb(18, 18, 18);
-    border-radius: 5px;
 }
 
 #section1 {
@@ -99,7 +98,7 @@ button:hover {
     font-weight: lighter;
     color: var(--beige);
     font-family: "Rammetto One", sans-serif;
-    text-shadow: 1px 1px 10px rgb(25, 25, 25);
+    text-shadow: 2px 2px 1px rgb(25, 25, 25);
 }
 
 #accroche {
@@ -175,6 +174,7 @@ button:hover {
     width: 90%;
     height: 30%;
     color: var(--beige);
+    text-shadow: 2px 2px 1px rgb(19, 18, 18);
 }
 
 .cardplat img {
@@ -186,7 +186,6 @@ button:hover {
 
 .cardplat:hover {
     scale: 1.1;
-    border-radius: 10px;
 }
 
 .cardplat:hover h2 {
@@ -224,6 +223,8 @@ button:hover {
     align-items: start;
     text-align: center;
     transition: 0.4s ease;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 .cardservice h2 {
     text-align: left;
@@ -232,14 +233,14 @@ button:hover {
 }
 .cardservice p {
     text-align: left;
+    text-shadow: 2px 2px 1px rgb(19, 18, 18);
 }
 .cardservice:hover {
     scale: 1.1;
-    border-radius: 10px;
 }
 
 .cardservice:hover h2 {
-    scale: 1.1;
+    scale: 1.05;
     border-radius: 5px;
 }
 #divavis {
