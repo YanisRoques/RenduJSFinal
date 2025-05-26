@@ -103,7 +103,7 @@ function afficher() {
                 divservice.appendChild(descService);
             })
             let h2avis = document.createElement(`h2`);
-            h2avis.textContent = (`Ils on testé Tudo de Bom`)
+            h2avis.textContent = (`Ils ont testé Tudo de Bom`)
             s2div3_1.appendChild(h2avis);
             let avis = data.temoignages;
             avis.forEach(avi => {
