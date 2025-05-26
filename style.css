@@ -50,8 +50,6 @@ button {
 button:hover {
     cursor: pointer;
     scale: 1.1;
-    background-color: var(--beige);
-    color: var(--vert-fond);
     box-shadow: 1px 1px 10px black;
 }
 
@@ -243,7 +241,7 @@ button:hover {
     height: 20%;
 }
 #divavistitre h2{
-    font-size: 30px;
+    font-size: 40px;
     color: var(--accent);
 }
 #divaviscard{
