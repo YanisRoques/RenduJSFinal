@@ -55,19 +55,19 @@
     {
       "prenom": "Sophie",
       "typeExperience": "Moqueca de Peixe",
-      "commentaire": "La moqueca de peixe chez Tudo de Bom est un véritable délice. Les saveurs sont authentiques, et le poisson est toujours frais. Une expérience culinaire à ne pas manquer !",
+      "commentaire": "La moqueca de peixe chez Tudo de Bom est un véritable délice. Les saveurs sont authentiques, une expérience culinaire à ne pas manquer !",
       "note": 5
     },
     {
       "prenom": "Lucas",
       "typeExperience": "Cours de Cuisine",
-      "commentaire": "Les cours de cuisine chez Tudo de Bom sont une expérience éducative et amusante. J'ai appris à cuisiner mes plats brésiliens préférés. Une façon interactive de découvrir la culture culinaire.",
+      "commentaire": "Les cours de cuisine chez Tudo de Bom sont super. J'ai appris à cuisiner mes plats brésiliens préférés. Une façon interactive de découvrir la culture culinaire.",
       "note": 5
     },
     {
       "prenom": "Camila",
       "typeExperience": "Événement Culturel",
-      "commentaire": "Les événements culturels chez Tudo de Bom sont toujours animés et festifs. La musique, la danse, et la nourriture créent une ambiance brésilienne authentique. C'est comme un voyage au Brésil à chaque visite !",
+      "commentaire": "Les événements culturels chez Tudo de Bom sont toujours animés et festifs. C'est comme un voyage au Brésil à chaque visite !",
       "note": 4
     }
   ]
